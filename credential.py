@@ -56,5 +56,12 @@ class Credential:
             if credential.serviceprovider == serviceprovider:
                 return True
         return False
+    
+    @classmethod
+    def display_credential(cls):
+        '''
+        method that returns the credential list
+        '''
+        return cls.credentials_list
             
         
