@@ -52,5 +52,14 @@ class TestCredentials(unittest.TestCase):
         
         self.assertEqual(found_credential.userpassword,test_credential.userpassword)
         
+    # credential exist
+        
+    def test_credential_exist(self):
+        self.new_credential.save_credential()
+        test_credential = Credential("test","userservice","userp")
+        test_credential.save_credential()
+        
+        credential_exist = Credential.credential_exist("userp")
+        self.assertTrue(credential_exist)
         
                
