@@ -13,4 +13,12 @@ class TestCredentials(unittest.TestCase):
     def test_save_credential(self):
         self.new_credential.save_credential()
         self.assertEqual(len(Credential.credentials_list),1)
-           
+       
+    # multiple credentials
+        
+    def test_save_multiple_credentials(self):
+        self.new_credential.save_credential()
+        test_credential = Credential("test","userservice","userp","personalnumber",)
+        test_credential.save_credential()
+        self.assertEqual(len(Credential.credentials_list))
+            
