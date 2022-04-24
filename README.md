@@ -30,7 +30,7 @@
    <li><h6>Run<h6></li>
    <li>chmod +x run.py</li>
    <li>./run.py</li>
-   <li>the program will run<li>
+   <li>the program will run
 </ul>
  
 ### Requerements
