@@ -22,4 +22,25 @@ def register():
            print(register())
        else:
            print(exit())
+           
+def Login():
+     print("LOGIN")
+     print("-"*30)
+     username = input("Enter username: ")
+     userpassword = input("enter login password:  ")
+     
+     user = User(username,userpassword)
+     if user is None:
+         print("please enter a valid name and password")
+     else:
+         user.login
+         print(f"Welcome {username}!you are logged in")
+         print("\n")
+         print("-"*30)
+         print('What would you like to do?')
+         while True:
+            print("use this short codes : cc-create a new password , dc-display passwords for different userservice,fc-find a specific password,dd-delete,ex -exit" )
+            print("-"*50)
+            useranswer = input("answer: ")
+            if useranswer == "cc":
                
