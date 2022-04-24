@@ -42,3 +42,22 @@ def  display_credentials():
     Function that returns all the saved credentials
     '''
     return Credential.display_credential()
+
+# main function
+
+def main():
+        print("Hi,welcome to our password generator app,")
+        ans=input("would you like to generate a password? y for YES or n for NO:  ")
+        if ans == "y":
+                status = input("are you a registered user?  y/n?")
+                if status == "n":
+                        login.register()
+                        login.Login()
+                else:
+                        login.Login()
+                        
+if __name__ == '__main__':
+
+     main()                        
+                      
+                       
