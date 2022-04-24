@@ -58,13 +58,13 @@
 <li>INPUT:"YES or NO as y/n"<li>
 <ul> </li>
 <li>ask the user if he or she is registered:if NO:</li>
-<li>INPUT:NO as n"<li>
-<li>INPUT:user name"<li>
-<li>INPUT:user password"<li>
-<li>INPUT:confirm password"<li>
-<li>PROMPT"You are now a registered user"<li>
-<li>INTERFACE LOGIN:INPUT:user name<li>
-<li>INTERFACE LOGIN:INPUT:user password<li>
+<li>INPUT:NO as n"
+<li>INPUT:user name"
+<li>INPUT:user password"
+<li>INPUT:confirm password"
+<li>PROMPT"You are now a registered user"
+<li>INTERFACE LOGIN:INPUT:user name
+<li>INTERFACE LOGIN:INPUT:user password
 
 
  
