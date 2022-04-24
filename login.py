@@ -97,11 +97,22 @@ def Login():
                     print('\n')
                     print("Sorry!you do not have any saved passwords")
                     print('\n')
+            elif useranswer == "fc":
+                print("Enter the user service you want to search:eg facebook,instagram")
+                searchcredential= input()
+                if run.check_exixting_credentials(searchcredential):
+                    search = run.find_credential(searchcredential)
+                    print(f"{search.username}  {search.userpassword}")
+                    print('-' * 20)
+                    print(f"serviceprovider.......{search.serviceprovider}")
+                else:
+                     print("That credential does not exist")    
+                        
             elif useranswer == "dd":
                 print("Enter the account you want to delete:" )
                 deleteAccount = input()
-                #  if deleteAccount == :
-                #      deleteAccount = run.del_credential(deleteAccount)
+                
+                
                 print(f"{deleteAccount} account successfuly deleted")
                 #  else:
                 #      print("you have no account to delete")
