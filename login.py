@@ -9,3 +9,11 @@ def register():
     username = input("enter username:  ")
     userpassword = input("enter register password:  ")
     compassword=input("confirm password:   ")
+    
+    #  validation
+    if userpassword == compassword:
+        user = User(username,userpassword)
+        user.save_user
+        print(f"Welcome {username}!you are now registered")
+        print("Lets Login")
+        
