@@ -43,4 +43,47 @@ def Login():
             print("-"*50)
             useranswer = input("answer: ")
             if useranswer == "cc":
+                choose= input("would you like a custom password or generated password?: c = custom and g = generated password: c/g?")
+                if  choose == "c":
+                                    
+                                    print("*"*60)
+                                    print("service provider eg twitter")
+                                    sprovider= input()
+                                    
+                            
+                                    print("User Name")
+                                    usname= input()
+                            
+                                                        
+                                    print("password")
+                                    uspassword= input()
+                                    
+                                    run.save_credentials(run.create_credentials(usname,sprovider,uspassword))
+                                    print("\n")
+                                    print(f"New {sprovider} credentials created and saved:")
+                                    print(f"Name:{usname}")
+                                    print(f"password:{uspassword}")
+                                    print("\n")
+                                    # print(run.display_credentials())
+                else:
+                                    print("*"*60)
+                                    print("service provider eg twitter")
+                                    sprovider= input()
+                                    
+                            
+                                    print("User Name")
+                                    usname= input()
+                            
+                                                        
+                            
+                                    uspassword=generate_password()
+                                    print("*"*60)
+                                    run.save_credentials(run.create_credentials(usname,sprovider,uspassword))
+                                    print("\n")
+                                    print(f"New {sprovider} credentials created and saved:")
+                                    print(f"Name:{usname}")
+                                    print(f"password:{uspassword}")
+                                    print("\n")
+                                    print("*"*60)
+            elif useranswer == "dc":
                
