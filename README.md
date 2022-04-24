@@ -107,9 +107,9 @@
 
 ## licence
 
-copyright (c) [2019] [https://github.com/elijah-dot/pizza-palace/blob/master/LICENSE]
+copyright (c) [2022] [https://github.com/elijah-dot/project-python1/blob/master/LICENSE]
 
-## authors info
+## Authors info
 
 linked - [Elijah Mwangi Wangu]
 (https://github.com/elijah-dot/project-python1)
