@@ -4,3 +4,13 @@ class User:
         self.username = username
         self.userpassword = userpassword
         # self.generated_password=generated_password 
+        
+    def save_user(self):
+        
+        User.user_list.append(self)
+        
+    def  login(self):
+        if User in User.user_list:
+            print(User)
+            return User
+ 
