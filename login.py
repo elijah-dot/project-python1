@@ -16,4 +16,10 @@ def register():
         user.save_user
         print(f"Welcome {username}!you are now registered")
         print("Lets Login")
-        
+    else:
+       repeat= input("Something has gone wrong. Try again. y/n")
+       if repeat == "y":
+           print(register())
+       else:
+           print(exit())
+               
