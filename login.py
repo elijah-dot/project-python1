@@ -111,13 +111,13 @@ def Login():
             elif useranswer == "dd":
                 print("Enter the account you want to delete:" )
                 deleteAccount = input()
-                
-                
+                #  if deleteAccount == :
+                #      deleteAccount = run.del_credential(deleteAccount)
                 print(f"{deleteAccount} account successfuly deleted")
                 #  else:
                 #      print("you have no account to delete")
             elif useranswer == "ex":
-                            print("Bye .......")
+                            print("come back soon -------")
                             break
             else:
                             print("I really didn't get that. Please use the short codes")  
