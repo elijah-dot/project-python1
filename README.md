@@ -25,6 +25,12 @@
    https://github.com/elijah-dot/project-python1
    </li>
    <li>open a code editor.any will work.</li>
+   <li>open the terminal the code editor.</li>
+   <li>cd the directory consolepassword</li>
+   <li><h6>Run<h6></li>
+   <li>chmod +x run.py</li>
+   <li>./run.py</li>
+   <li>the program will run<li>
 </ul>
  
 ### Requerements
@@ -51,7 +57,7 @@
 <li>Welcomes the user asks him if he would want to generate a new password. <ul>
 <li>INPUT:"YES or NO as y/n"<li>
 <ul> </li>
-<li>ask the user if he or she is registered:if NO:<ul>
+<li>ask the user if he or she is registered:if NO:</li>
 <li>INPUT:NO as n"<li>
 <li>INPUT:user name"<li>
 <li>INPUT:user password"<li>
@@ -61,26 +67,30 @@
 <li>INTERFACE LOGIN:INPUT:user password<li>
 
 
-<ul> </li>
+ 
 <li>Displays :instructions to navigate the app using short codes<ul>
 <li>cc-create a new password , dc-display passwords for different userservice,fc-find a specific password,dd-delete,ex -exit<li>
-<li>INPUT:"cc" 
-<ul>
+<li>INPUT:"cc"</li> 
+<li>PRESS ENTER<li>
 <li>DISPLAY:if the user wants to create a custom or generated password as c/g<li>
 <li>INPUT:"c"<li>
 <li>INPUT:"service provider eg twitter,facebook"<li>
 <li>INPUT:"user accountname"<li>
 <li>INPUT:"user custom made password"<li>
-
-
-
-<ul></li>
-<li>INPUT::"User name Entered</li>
-<li>INPUT::"User massege Entered</li>
-
-<li>OUTPUT:"Displays user message has been received.</li>
-
-</ul> </li>
+<li>PRESS ENTER<li>
+<li>DISPLAY:the users credentials eg the service provider,the password created<li>
+<li>INPUT:"dc"</li>
+<li>PRESS ENTER<li>
+<li>DISPLAY: All the users past stored in the app credentials eg the service provider,the password created<li>
+<li>INPUT:"fc"</li>
+<li>PRESS ENTER<li>
+<li>INPUT:"the name of the service provider"</li>
+<li>PRESS ENTER<li>
+<li>DISPLAY:Displays the searched  user credentials eg the service provider,the password created<li>
+<li>INPUT:"ex"</li>
+<li>PRESS ENTER<li>
+<li>DISPLAY:"a short message"</li>
+<li>exits the current program or ends the whole program<li>
 </ol>
 
 ## Development
@@ -102,7 +112,7 @@ copyright (c) [2019] [https://github.com/elijah-dot/pizza-palace/blob/master/LIC
 ## authors info
 
 linked - [Elijah Mwangi Wangu]
-(https://github.com/elijah-dot/pizza-palace)
+(https://github.com/elijah-dot/project-python1)
 
 email - [Elijah Mwangi Wangu]
 (elijahwangu91@gmail.com
