@@ -21,4 +21,24 @@ class TestCredentials(unittest.TestCase):
         test_credential = Credential("test","userservice","userp","personalnumber",)
         test_credential.save_credential()
         self.assertEqual(len(Credential.credentials_list))
-            
+     
+    def tearDown(self):
+        Credential.credentials_list = []
+        
+        
+    def test_save_multiple_credentials(self):
+        self.new_credential.save_credential()
+        test_credential = Credential("test","userservice","userp","personalnumber",)
+        test_credential.save_credential()
+        self.assertEqual(len(Credential.credentials_list),2)
+        
+        
+    def test_delete_credential(self):
+        self.new_credential.save_credential()
+        test_credential = Credential("test","userservice","userp","personalnumber",)
+        test_credential.save_credential()
+        
+        self.new_credential.delete_credential()
+        self.assertEqual(len(Credential.credentials_list),1)
+        
+               
