@@ -27,10 +27,34 @@ class Credential:
         Credential.credentials_list.remove(self)
         
          # finding a credential
-    @classmethod   
+    @classmethod 
+    
     def find_credential(cls,serviceprovider):
+        '''
+        Method that takes in a service provider and returns a credential that matches that service provider.
+        Args:
+            serviceprovider: service provider to search for
+        Returns :
+            Credential of person that matches the service provider.
+        '''
+        
         for credential in cls.credentials_list:
             if credential.serviceprovider == serviceprovider:
                 return credential
+            
+            # check if it exist
+    @classmethod
+    def credential_exist(cls,serviceprovider):
+        '''
+        Method that checks if a credential exists from the credential list.
+        Args:
+            serviceprovider: serviceprovider to search if it exists
+        Returns :
+            Boolean: True or false depending if the credential exists
+        '''
+        for credential in cls.credentials_list:
+            if credential.serviceprovider == serviceprovider:
+                return True
+        return False
             
         
