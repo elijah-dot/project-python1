@@ -86,4 +86,17 @@ def Login():
                                     print("\n")
                                     print("*"*60)
             elif useranswer == "dc":
+                if run.display_credentials():
+                    print("Here is a list of your saved passwords")
+                    print("\n")
+                    
+                    for credential in run.display_credentials():
+                        print(f"{credential.username} {credential.serviceprovider} ......{credential.userpassword}")
+                    print('\n')
+                else:
+                    print('\n')
+                    print("Sorry!you do not have any saved passwords")
+                    print('\n')
+                    
+                    
                
