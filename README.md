@@ -1,4 +1,4 @@
-# Pizza planet
+#   Password Generator
 
 ### By Elijah Mwangi Wangu.
 
@@ -15,14 +15,14 @@
 
 ## Description
 
-<p>it is a website that gives people oppotunity to order best quality pizza via website without having to commute to the to the restorant.</p>
+<p>it is a website that generates users passwords for different service providers or websites</p>
 
 
 ## Istallation
 
 <ul>
    <li>go to a location of your liking in your file system choose a root folder and clone this repository <br>
-   https://github.com/elijah-dot/pizza-palace.git
+   https://github.com/elijah-dot/project-python1
    </li>
    <li>open a code editor.any will work.</li>
 </ul>
@@ -35,24 +35,46 @@
 
 ### Installation process
 
-[Go back to the top](#pizza-names)
+[Go back to the top](#password generator)
 
 ## Technology used
 
 <ul> 
-<li>Html - which was used to build the structure of the pages</li>
-<li>css- which was used to style the pages </li>
-<li>bootstrap-which was used to make pages and images responsive</li>
-<li>javascript-which was used to make the form interractive and also the pages and icons.</li>
+<li>python3.10 - which was used to build the structure of the app in the console</li>
+
 
 </ul>
 
-## Behaviour Drriven Development
+## Behaviour Driven Development
 
 <ol>
-<li>displays a landingpage with a quick description of the website </li>
-<li>Displays form for entering name,email and text <ul>
-<li>INPUT:"Users email Entered"</li>
+<li>Welcomes the user asks him if he would want to generate a new password. <ul>
+<li>INPUT:"YES or NO as y/n"<li>
+<ul> </li>
+<li>ask the user if he or she is registered:if NO:<ul>
+<li>INPUT:NO as n"<li>
+<li>INPUT:user name"<li>
+<li>INPUT:user password"<li>
+<li>INPUT:confirm password"<li>
+<li>PROMPT"You are now a registered user"<li>
+<li>INTERFACE LOGIN:INPUT:user name<li>
+<li>INTERFACE LOGIN:INPUT:user password<li>
+
+
+<ul> </li>
+<li>Displays :instructions to navigate the app using short codes<ul>
+<li>cc-create a new password , dc-display passwords for different userservice,fc-find a specific password,dd-delete,ex -exit<li>
+<li>INPUT:"cc" 
+<ul>
+<li>DISPLAY:if the user wants to create a custom or generated password as c/g<li>
+<li>INPUT:"c"<li>
+<li>INPUT:"service provider eg twitter,facebook"<li>
+<li>INPUT:"user accountname"<li>
+<li>INPUT:"user custom made password"<li>
+
+
+
+<ul></li>
 <li>INPUT::"User name Entered</li>
 <li>INPUT::"User massege Entered</li>
 
