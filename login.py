@@ -105,6 +105,11 @@ def Login():
                 print(f"{deleteAccount} account successfuly deleted")
                 #  else:
                 #      print("you have no account to delete")
+            elif useranswer == "ex":
+                            print("Bye .......")
+                            break
+            else:
+                            print("I really didn't get that. Please use the short codes")  
                     
                     
                
