@@ -26,3 +26,11 @@ class Credential:
         '''
         Credential.credentials_list.remove(self)
         
+         # finding a credential
+    @classmethod   
+    def find_credential(cls,serviceprovider):
+        for credential in cls.credentials_list:
+            if credential.serviceprovider == serviceprovider:
+                return credential
+            
+        
